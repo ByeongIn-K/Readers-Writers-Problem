@@ -213,8 +213,8 @@ long long total_writes;
 
 | Method            | Execution Time (sec) |
 | ----------------- | -------------------- |
-| Reader Preference | 측정 결과 입력             |
-| Writer Preference | 측정 결과 입력             |
+| Reader Preference | 1.125989             |
+| Writer Preference | 1.649021             |
 
 ---
 
