@@ -2,7 +2,7 @@
 
 ## 1. 문제 개요
 
-Readers-Writers Problem은 여러 Reader와 Writer가 공유 데이터에 접근하는 상황에서 발생하는 동기화 문제이다.
+Readers-Writers Problem은 여러 Reader와 Writer가 공유 데이터(DB)에 접근하는 상황에서 발생하는 동기화 문제이다.
 
 Reader는 데이터를 읽기만 수행하므로 여러 Reader가 동시에 공유 데이터에 접근할 수 있다.
 
