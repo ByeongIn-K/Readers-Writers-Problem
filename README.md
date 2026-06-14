@@ -212,13 +212,7 @@ long long total_reads;
 long long total_writes;
 ```
 
-읽기 및 쓰기 횟수는 GCC Atomic Built-in 함수인
-
-```
-__sync_fetch_and_add()
-```
-
-를 사용하여 원자적으로 증가시켰다.
+읽기 횟수(total_reads)와 쓰기 횟수(total_writes)는 여러 스레드가 동시에 접근하는 공유 변수이므로 별도의 mutex(count_mutex)를 사용하여 Race Condition을 방지하였다.
 
 ---
 
